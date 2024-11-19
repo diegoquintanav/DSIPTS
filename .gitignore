@@ -1,7 +1,6 @@
 *.ipynb_checkpoints
 *.pyc
 *.ckpt
-__pycache__/
 *.rst
 *.pkl
 *config_used*
@@ -206,3 +205,9 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
+
+# https://github.com/hp-l33/AiM/blob/main/.gitignore
+notebooks/.aim
+
+
+dsipts/models/informer/__pycache__/encoder.cpython-310.pyc
