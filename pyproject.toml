@@ -2,10 +2,7 @@
 name = "dsipts"
 version = "2.0.0"
 description = "Python library for time series forecasting"
-authors = [
-	"Andrea Gobbi <agobbi@fbk.eu",
-	"Diego Quintana <daquintanav@gmail.com>",
-]
+authors = ["Andrea Gobbi <agobbi@fbk.eu"]
 readme = "README.md"
 packages = [{ include = "dsipts", from = "." }]
 
@@ -41,6 +38,7 @@ pydantic = "^2.9.2"
 ipykernel = "^6.29.5"
 ipywidgets = "^8.1.5"
 nbformat = "^5.10.4"
+google-api-python-client = "^2.153.0"
 
 [build-system]
 requires = ["poetry-core"]
